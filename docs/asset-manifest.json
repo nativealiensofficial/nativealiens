@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nativealiens/static/css/main.6332dac0.css",
-    "main.js": "/nativealiens/static/js/main.17c0e6dd.js",
-    "static/media/alien.gif": "/nativealiens/static/media/alien.607c68e81dd999d91880.gif",
-    "static/media/nave.png": "/nativealiens/static/media/nave.a0c198fda45735e6cf3c.png",
-    "static/media/nativebackground.mp4": "/nativealiens/static/media/nativebackground.2c3e1bade69c579a651a.mp4",
-    "static/media/nativealiens.png": "/nativealiens/static/media/nativealiens.355c060c52a0a42b26b3.png",
-    "static/media/metamask.png": "/nativealiens/static/media/metamask.02e3ec2750d2107176f5.png",
-    "static/media/insta.png": "/nativealiens/static/media/insta.6f7718f32219734b6638.png",
-    "index.html": "/nativealiens/index.html",
-    "main.6332dac0.css.map": "/nativealiens/static/css/main.6332dac0.css.map",
-    "main.17c0e6dd.js.map": "/nativealiens/static/js/main.17c0e6dd.js.map"
+    "main.css": "/static/css/main.6332dac0.css",
+    "main.js": "/static/js/main.8a8e6425.js",
+    "static/media/alien.gif": "/static/media/alien.607c68e81dd999d91880.gif",
+    "static/media/nave.png": "/static/media/nave.a0c198fda45735e6cf3c.png",
+    "static/media/nativebackground.mp4": "/static/media/nativebackground.2c3e1bade69c579a651a.mp4",
+    "static/media/nativealiens.png": "/static/media/nativealiens.355c060c52a0a42b26b3.png",
+    "static/media/metamask.png": "/static/media/metamask.02e3ec2750d2107176f5.png",
+    "static/media/insta.png": "/static/media/insta.6f7718f32219734b6638.png",
+    "index.html": "/index.html",
+    "main.6332dac0.css.map": "/static/css/main.6332dac0.css.map",
+    "main.8a8e6425.js.map": "/static/js/main.8a8e6425.js.map"
   },
   "entrypoints": [
     "static/css/main.6332dac0.css",
-    "static/js/main.17c0e6dd.js"
+    "static/js/main.8a8e6425.js"
   ]
 }
