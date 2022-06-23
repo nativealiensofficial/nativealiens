@@ -9,7 +9,10 @@ import Typography from '@mui/material/Typography';
 import MetaMask from '../../assets/metamask.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Container, ImgLogo, ContentHeader, LogoInstagram, ContentButtonWallet, ButtonWallet, VideoBackground, ContainerModal, ButtonModal, ImgMetamask, ButtonMint, ContentFooter, GifAlien, GlassFooter } from './styled';
+import { Container, ImgLogo, ContentHeader, LogoInstagram, 
+ContentButtonWallet, ButtonWallet, VideoBackground, ContainerModal, 
+ButtonModal, ImgMetamask, ButtonMint, ContentFooter, GifAlien,
+ GlassFooter, MintYourNFT, MINT } from './styled';
 import GifAlienPre from '../../assets/alien.gif'
 
 
@@ -109,8 +112,8 @@ export default function NativeAlien() {
                 <ContentFooter>
                     <GifAlien src={GifAlienPre} alt="Gif Alien" />
                     <GlassFooter>
-                        <Typography variant="h4" gutterBottom component="h4" sx={{ color: 'black', fontWeight: '900', marginBottom: '50px', marginTop: '50px' }}><b style={{ color: 'white' }}>MINT YOUR NFT</b></Typography>
-                        <ButtonMint onClick={event => startPayment()}><Typography sx={{ fontSize: '30px' }}><b >MINT SOON</b></Typography></ButtonMint>
+                        <MintYourNFT variant="h4" gutterBottom component="h4"><b style={{ color: 'white' }}>MINT YOUR NFT</b></MintYourNFT>
+                        <ButtonMint onClick={event => startPayment()}><MINT component="h4" variant="h4" ><b>MINT</b></MINT></ButtonMint>
                     </GlassFooter>
                 </ContentFooter>
             </div>

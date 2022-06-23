@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { Typography } from '@mui/material';
 
 
 export const Container = styled.div`
@@ -126,8 +127,6 @@ top: 100%;
 object-fit: cover;
 z-index: -1;
 
-
-
 `;
 
 export const ContainerModal = styled.div`
@@ -162,7 +161,7 @@ export const ImgMetamask = styled.img`
 
 export const ButtonMint = styled.button`
     width: 100%;
-    height: 100px;
+    height: 25%;
     background: rgb(134, 74, 212);
     color: white;
     border-radius: 15px;
@@ -175,25 +174,117 @@ export const ButtonMint = styled.button`
         color: white;
   }
 
+  @media(max-width: 1200px){
+    margin-top: 20%;
+    width: 100%;
+    height: 25%;
+}
+
+    @media(max-width: 1000px){
+        margin-top: 20%;
+        width: 109%;
+        height: 25%;
+}
+
+    @media(max-width: 500px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 109%;
+        height: 100%;
+        padding-right: 70px;
+        padding-left: 70px;
+        
+}
+
 `;
 
 export const ContentFooter = styled.div`
-margin: 12%;
+ margin-top: 10%;
+ margin-right: 10%;
+ margin-left: 10%;
  display: flex;
  justify-content: space-between;
  border-radius: 20px;
  box-shadow: inset 0 0 1em white, 0 0 1em black;
 
+ @media(max-width: 1200px){
+    margin-top: 15%;
+    }
+
+    @media(max-width: 1080px){
+        margin-top: 20%;
+    }
+
+    @media(max-width: 560px){
+        margin-top: 40%;
+        flex-direction: column;
+    }
+
 `;
 
 export const GifAlien = styled.img`
-width: 400px;
- height: 400px;
+width: 40%;
+ height: 40%;
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
+
+    @media(max-width: 1200px){
+        width: 60%;
+        height: 60%;
+    }
+
+    @media(max-width: 1080px){
+        width: 80%;
+        height: 80%;
+    }
+
+    @media(max-width: 560px){
+        width: 100%;
+        height: 100%;
+    }
 `;
 
 export const GlassFooter = styled.div`
-padding: 80px;
+display: flex;
+flex-direction: column;
+padding-right: 8%;
+padding-top: 15%;
+
+@media(max-width: 1200px){
+    padding-top: 5%;
+    }
+
+    @media(max-width: 1080px){
+        padding-top: 8%;
+    }
+
+ 
+
+`;
+
+export const MintYourNFT = styled(Typography)`
+ color: black;
+ font-weight: 900;
+  margin-bottom: 10%;
+
+@media(max-width: 1200px){
+    padding-top: 5%;
+}
+
+@media(max-width: 1000px){
+    padding-top: 10%;
+    display: flex;
+    
+}
+
+@media(max-width: 500px){
+    display: none;
+}
+`;
+
+export const MINT = styled(Typography)`
+font-size: 100%;
+
 `;
 
