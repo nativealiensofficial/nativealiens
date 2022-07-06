@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import Video from '../../assets/nativebackground.mp4'
-import Logo from '../../assets/nativealiens.png';
-import Instagram from '../../assets/insta.png';
-import Nave from '../../assets/nave.png';
 import ButtonDescer from '../../components/ButtonDown';
 import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
-import MetaMask from '../../assets/metamask.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+//css
 import { Container, ImgLogo, ContentHeader, LogoInstagram, 
 ContentButtonWallet, ButtonWallet, VideoBackground, ContainerModal, 
 ButtonModal, ImgMetamask, ButtonMint, ContentFooter, GifAlien,
- GlassFooter, MintYourNFT, MINT } from './styled';
-import GifAlienPre from '../../assets/alien.gif'
+ GlassFooter, MintYourNFT, MINT, NativeOpensea } from './styled';
+//assets
+import Videonft from '../../assets/videonativealiens.mp4';
+import BackgroundImageNative from '../../assets/backgroundnative.webp';
+import GifNftNative from '../../assets/gifnative.gif';
+import MetaMask from '../../assets/metamask.png';
+import Logo from '../../assets/nativealiens.png';
+import Instagram from '../../assets/insta.png';
 
 
 export default function NativeAlien() {
@@ -67,13 +69,6 @@ export default function NativeAlien() {
 
     }
 
-    async function startPayment() {
-
-    }
-
-
-
-
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
@@ -102,18 +97,19 @@ export default function NativeAlien() {
                 </ContentButtonWallet>
             </Container>
             <VideoBackground loop autoPlay muted>
-                <source src={Video} type='video/mp4'></source>
+                <source src={Videonft} type='video/mp4'></source>
             </VideoBackground>
             <div>
                 <ButtonDescer />
             </div>
 
-            <div style={{ background: `url(${Nave}) no-repeat`, backgroundSize: 'cover', position: 'absolute', width: '100%', top: '100%', objectFit: 'cover', zIndex: '-1', height: '100%' }}>
+            <div style={{ background: `url(${BackgroundImageNative}) no-repeat`, backgroundSize: 'cover', position: 'absolute', width: '100%', top: '100%', objectFit: 'cover', zIndex: '-1', height: '100%' }}>
                 <ContentFooter>
-                    <GifAlien src={GifAlienPre} alt="Gif Alien" />
+                    <GifAlien src={GifNftNative} alt="Gif Alien" />
                     <GlassFooter>
                         <MintYourNFT variant="h4" gutterBottom component="h4"><b style={{ color: 'white' }}>MINT YOUR NFT</b></MintYourNFT>
-                        <ButtonMint onClick={event => startPayment()}><MINT component="h4" variant="h4" ><b>MINT</b></MINT></ButtonMint>
+                        <ButtonMint><MINT component="h4" variant="h4" ><NativeOpensea target="_blank" rel="noreferrer" href='https://opensea.io/collection/nativealiens'>
+                            MINT</NativeOpensea></MINT></ButtonMint>
                     </GlassFooter>
                 </ContentFooter>
             </div>

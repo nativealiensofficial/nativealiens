@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6332dac0.css",
-    "main.js": "/static/js/main.b03fba50.js",
-    "static/media/alien.gif": "/static/media/alien.607c68e81dd999d91880.gif",
-    "static/media/nave.png": "/static/media/nave.a0c198fda45735e6cf3c.png",
-    "static/media/nativebackground.mp4": "/static/media/nativebackground.2c3e1bade69c579a651a.mp4",
+    "main.js": "/static/js/main.2e4bda40.js",
+    "static/media/gifnative.gif": "/static/media/gifnative.0e19467c7d7ae402b8fc.gif",
+    "static/media/videonativealiens.mp4": "/static/media/videonativealiens.b05b35e1f75ec6931c60.mp4",
+    "static/media/backgroundnative.webp": "/static/media/backgroundnative.628924343be53aee222f.webp",
     "static/media/nativealiens.png": "/static/media/nativealiens.355c060c52a0a42b26b3.png",
     "static/media/metamask.png": "/static/media/metamask.02e3ec2750d2107176f5.png",
     "static/media/insta.png": "/static/media/insta.6f7718f32219734b6638.png",
     "index.html": "/index.html",
     "main.6332dac0.css.map": "/static/css/main.6332dac0.css.map",
-    "main.b03fba50.js.map": "/static/js/main.b03fba50.js.map"
+    "main.2e4bda40.js.map": "/static/js/main.2e4bda40.js.map"
   },
   "entrypoints": [
     "static/css/main.6332dac0.css",
-    "static/js/main.b03fba50.js"
+    "static/js/main.2e4bda40.js"
   ]
 }

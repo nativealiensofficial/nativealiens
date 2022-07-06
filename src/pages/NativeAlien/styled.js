@@ -285,6 +285,13 @@ export const MintYourNFT = styled(Typography)`
 
 export const MINT = styled(Typography)`
 font-size: 100%;
+`;
+
+export const NativeOpensea = styled.a`
+text-decoration: none;
+cursor: pointer;
+color: white;
+font-weight: bold;
 
 `;
 
